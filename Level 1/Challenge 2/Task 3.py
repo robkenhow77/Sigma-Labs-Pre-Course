@@ -58,9 +58,6 @@ def create_username_random():
     print(name)
 
 
-# create_username_names()
-# create_username_random()
-
 print("press key 1 to generate username based on a name \n"
       "press key 2 to generate random username")
 if ask_user_for_number() == 1:
