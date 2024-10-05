@@ -11,8 +11,6 @@ def ask_user_for_number():
         ask_user_for_number()
 
 
-
-
 def reverse_name(name):
     return name[::-1]
 
