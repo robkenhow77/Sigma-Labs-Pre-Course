@@ -20,6 +20,7 @@ say_hello_to_pets(animals)
 #    in this case add a pet_message variable as well.
 #  - pet_name variable should equal pet["name"] not pet.name
 #  - An infinte loop is created with the final if statement.
+#  - Function isn't called.
 
 # Improvements
 # - The if statments to identify cat or dog can be replaced and put into the f string, 
