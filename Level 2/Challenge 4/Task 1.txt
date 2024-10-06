@@ -1,0 +1,11 @@
+Global Scope:
+
+Global scope refers to variables stored that can be accessed anywhere in the script. They are defined in the main section of the script. 
+If using a global variable within a function it must be stated that it is a global variable. 
+Lobal variables exist for the entire duration of the script while it is running.
+
+Local Scope:
+
+Local scope refers to variables defined within a function. These variables can only be accessed within the function. 
+If called outside of a function an error will arrive due to the undefined variable. 
+If using the name of a global variable within a function the local variable will be used. Once a local variable is used it is destroyed.
