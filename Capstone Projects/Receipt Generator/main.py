@@ -116,7 +116,7 @@ def sum_up():
                 b = int(offers[good][-1])
                 quantity = order[good]
                 price = goods[good]
-                quantity_not_offer = int((quantity/a - quantity//a) * a)
+                quantity_not_offer = int(quantity % a)
                 quantity_offer = quantity - quantity_not_offer
                 cost = round(((quantity_not_offer + quantity_offer * (b/a)) * price),2)
             total_cost += round(cost, 2)
